@@ -1,0 +1,115 @@
+﻿<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Robotics and Perception Laboratory</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.jpg" /> 
+    
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+    }
+    .swiper-container {
+        width: 100%;
+        height: 75%;
+        
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background:url(images/bg-content.jpg) repeat;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>       
+</head>
+<body>
+	<div id="header">
+    	<div class = "header2">
+            <a href="index.html" class="logo2"><img src="images/CUHK.png" alt="" height= 95%></a> 
+			<a href="index.html" class="logo"><img src="images/logo.png" alt="" > </a>   
+   		</div>
+		<ul>
+			<li class="selected">
+				<a href="index.html">home</a>
+			</li>
+			<li>
+				<a href="member.html">Member</a>
+			</li>
+			<li>
+				<a href="research.html">Research</a>
+			</li>
+			<li>
+				<a href="publication.html">Publication</a>
+			</li>
+			<li>
+				<a href="news.html">News</a>
+			</li>
+			<li>
+				<a href="resource.html">Resource</a>
+			</li>
+			<li>
+				<a href="intranet.html">Intranet</a>
+			</li>
+		</ul>
+	</div>
+    
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="http://www.ee.cuhk.edu.hk/~qhmeng/icia2016/index.html"><img src="images/index11.jpg" width= 100%></a></div>
+            <div class="swiper-slide"><a href="resource.html"><img src="images/index15.png"></a></div>
+            <div class="swiper-slide"><img src="images/index12.jpg"></div>
+            <div class="swiper-slide"><img src="images/index13.jpg"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+        
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
+
+	<div id="footer">
+		<div>
+			<p>
+				<span>Copyright &copy; 2001-2017 Robotics and Perception Laboratory All Rights Reserved.</span>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
